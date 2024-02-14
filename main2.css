@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(pic2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul{
+    float: left;
+    margin-left: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(0, 174, 180);
+    border-radius: 2px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 300px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.center h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    margin-left: 60px;
+}
+.center h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 60px;
+}
+.button2{
+    margin-top: 40px;
+    margin-left: 400px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background:  rgb(0, 174, 180);
+    border: 1px solid rgb(0, 174, 180);
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+}

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(pic2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul{
+    float: left;
+    margin-left: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(0, 174, 180);
+    border-radius: 2px;
+}
+.wrapper .container{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 200px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    max-width: 760px;
+}
+.container h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    margin-top: 2%;
+}
+.linkText{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.linkText a{
+    color: rgb(93, 187, 0);
+}
+.linkText h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.linkText h3{
+    font-size: 18px;
+    margin-top: 2%;
+}
+.wrapper .container1{
+    position: absolute;
+    top: 50%;
+    left: 170%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 200px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    max-width: 760px;
+}
+.container1 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    margin-top: 2%;
+}
+.linkText1{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.linkText1 a{
+    color: rgb(93, 187, 0);
+}
+.linkText1 h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.linkText1 h3{
+    font-size: 18px;
+    margin-top: 2%;
+}
+.wrapper .container2{
+    position: absolute;
+    top: 180%;
+    left: -70%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 200px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    max-width: 760px;
+}
+.container2 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    margin-top: 2%;
+}
+.linkText2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.linkText2 a{
+    color: rgb(93, 187, 0);
+}
+.linkText2 h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.linkText2 h3{
+    font-size: 18px;
+    margin-top: 2%;
+}
+.wrapper .container3{
+    position: absolute;
+    top: 50%;
+    left: 170%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 200px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 1);
+    color: white;
+    max-width: 760px;
+}
+.container3 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    margin-top: 2%;
+}
+.linkText3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.linkText3 a{
+    color: rgb(93, 187, 0);
+}
+.linkText3 h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.linkText3 h3{
+    font-size: 18px;
+    margin-top: 2%;
+}
+.center .button{
+    text-align: center;
+    margin: 35px 280px;
+}
+.button button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background:  rgb(0, 174, 180);
+    border: 1px solid rgb(0, 174, 180);
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}

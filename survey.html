@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Website</title>
+
+    <!--link for the css file link-->
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                Survey form 
+            </h1>
+            <p id="description">
+                This is for the description
+            </p>
+        </header>
+        <form action="" id="survey-form">
+            <!--Text part-->
+            <div class="survey-group">
+                <label for="Name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+            </div>
+            <!--end of text-->
+
+            <!--Email part-->
+            <div class="survey-group">
+                <label for="Uni Email">Uni Email</label>
+                <input type="text" name="Email" id="Email" placeholder="Enter your uni email" required>
+            </div>
+            <!--End of Email part -->
+
+            <!--Selection section-->
+            <div class="form-group">
+                <p id="quest">Wich course are you taking?
+                </p>
+                <select name="role"
+                id="dropdown"
+                class="formControl" required>
+                    <option value="" disabled
+                    selected>Select the course</option>
+                    <option value="student">Student</option>
+                    <option value="student">Student</option>
+                    <option value="student">Student</option>
+                    <option value="student">Student</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <p id="quest">Wich year are you taking?
+                </p>
+                <label for="">
+                    <input type="radio"
+                    name="source"
+                    value="first-year"
+                    class="inputRadio"
+                    >First Year
+                </label>
+                <label for="">
+                    <input type="radio"
+                    name="source"
+                    value="second-year"
+                    class="inputRadio"
+                    >First year
+                </label>
+                <label for="">
+                    <input type="radio"
+                    name="source"
+                    value="third-year"
+                    class="inputRadio"
+                    >Third Year
+                </label>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
