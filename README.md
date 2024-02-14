@@ -1,3 +1,1 @@
-"# decentralized-app" 
-"# Dissertation-Code" 
-"# Dissertation-Code" 
+This project is made for my final Dissertation, where I created a mock website using HTML and CSS code language, so I can create a user interface for the person to have a first looking into my ideas in the cotext of my dissertation.
